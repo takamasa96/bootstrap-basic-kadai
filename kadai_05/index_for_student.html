@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 画像グリッド例</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .box img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+      .featurette-divider {
+        margin: 5rem 0;
+      }
+    </style>
+
+    <!-- Bootstrap JS -->
+    <script src="dist/js/bootstrap.bundle.min.js" defer></script>
+  </head>
+  <body>
+    <main>
+
+      <!-- ************************************************ カルーセル開始 -->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/top_1.jpg" alt="サンプル画像1">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ************************************************ カルーセル終了 -->
+
+      <!-- ************************************************ 画像6個グリッド -->
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-2">
+            <div class="box"><img src="img/img1.jpg" alt="画像1"></div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="box"><img src="img/img2.jpg" alt="画像2"></div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="box"><img src="img/img3.jpg" alt="画像3"></div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="box"><img src="img/img4.jpg" alt="画像4"></div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="box"><img src="img/img5.jpg" alt="画像5"></div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="box"><img src="img/img6.jpg" alt="画像6"></div>
+          </div>
+        </div>
+      </div>
+      <!-- ************************************************ 画像6個グリッド終了 -->
+
+      <!-- <div class="container marketing"> -->
+      <div class="container marketing">
+        <!-- <div class="row"> -->
+        <div class="row">
+          <!-- <div class="col-lg-4"> -->
+          <div class="col-lg-4 text-center">
+            <img src="img/cake.jpg" class="rounded-circle" alt="サンプル画像2" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- <div class="row"> -->
+        <div class="row featurette">
+          <!-- <div class="col-md-7"> -->
+          <div class="col-md-7">
+            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</p>
+          </div>
+          <!-- <div class="col-md-5"> -->
+          <div class="col-md-5">
+            <img src="img/sushi.jpg" class="img-fluid" alt="サンプル画像3">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <footer class="container">
+          <p class="text-center"><a href="#">Back to top</a></p>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
